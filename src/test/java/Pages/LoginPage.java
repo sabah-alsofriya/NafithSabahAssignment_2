@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
     WebDriver driver;
-    //test git
     By emailField = By.id("id_email");
     By passwordField = By.id("id_password");
     By loginButton = By.xpath("//button[contains(text(),'تسجيل الدخول')]");
